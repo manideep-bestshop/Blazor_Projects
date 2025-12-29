@@ -1,0 +1,76 @@
+2025-12-29 11:35:39.867 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-29 11:35:39.998 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-29 11:35:40.299 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-29 11:35:40.303 +05:30 [INF] Hosting environment: Development
+2025-12-29 11:35:40.311 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-29 11:35:41.977 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-29 11:35:41.976 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-29 11:35:42.559 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 598.5507ms
+2025-12-29 11:35:42.957 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 996.6176ms
+2025-12-29 11:35:43.055 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-29 11:35:43.448 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 48.7694 ms
+2025-12-29 11:35:43.471 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 415.6303ms
+2025-12-29 11:36:54.042 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-29 11:36:54.455 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 209.9225 ms
+2025-12-29 11:36:54.463 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 421.5395ms
+2025-12-29 11:36:54.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-29 11:36:54.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-29 11:36:54.497 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 11.58ms
+2025-12-29 11:36:54.515 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.3733ms
+2025-12-29 11:36:54.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-29 11:36:54.737 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 5.2575 ms
+2025-12-29 11:36:54.746 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.2584ms
+2025-12-29 11:37:17.200 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/api/Employee - null null
+2025-12-29 11:37:17.231 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-29 11:37:17.300 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-29 11:37:17.353 +05:30 [INF] Fetching all employees
+2025-12-29 11:37:18.231 +05:30 [INF] Fetched 3 employees
+2025-12-29 11:37:18.260 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Employee.API.Models.Employee, Employee.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 11:37:18.303 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API) in 981.1977ms
+2025-12-29 11:37:18.315 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-29 11:37:18.327 +05:30 [INF] HTTP GET /api/Employee responded 200 in 1104.7267 ms
+2025-12-29 11:37:18.343 +05:30 [INF] HTTP GET /api/Employee responded 200 in 1128.5369 ms
+2025-12-29 11:37:18.363 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/api/Employee - 200 null application/json; charset=utf-8 1163.4997ms
+2025-12-29 12:25:42.680 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-29 12:25:42.820 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-29 12:25:43.089 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-29 12:25:43.097 +05:30 [INF] Hosting environment: Development
+2025-12-29 12:25:43.103 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-29 12:25:43.946 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-29 12:25:43.946 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-29 12:25:44.034 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 91.6608ms
+2025-12-29 12:25:44.052 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 108.6175ms
+2025-12-29 12:25:44.260 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-29 12:25:44.340 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 13.0067 ms
+2025-12-29 12:25:44.369 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 108.9134ms
+2025-12-29 12:26:01.131 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/api/Employee - null null
+2025-12-29 12:26:01.166 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-29 12:26:01.226 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-29 12:26:01.247 +05:30 [INF] Fetching all employees
+2025-12-29 12:26:02.112 +05:30 [INF] Fetched 0 employees
+2025-12-29 12:26:02.139 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Employee.API.Models.Employee, Employee.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 12:26:02.181 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API) in 939.4224ms
+2025-12-29 12:26:02.193 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-29 12:26:02.200 +05:30 [INF] HTTP GET /api/Employee responded 200 in 1042.5924 ms
+2025-12-29 12:26:02.212 +05:30 [INF] HTTP GET /api/Employee responded 200 in 1068.8848 ms
+2025-12-29 12:26:02.226 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/api/Employee - 200 null application/json; charset=utf-8 1094.957ms
+2025-12-29 12:26:14.301 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7299/api/Employee - application/json 111
+2025-12-29 12:26:14.323 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.Create (Employee.API)'
+2025-12-29 12:26:14.356 +05:30 [INF] Route matched with {action = "Create", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Employee.API.Models.Employee) on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-29 12:26:14.585 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-12-29 12:26:14.593 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.Create (Employee.API) in 224.001ms
+2025-12-29 12:26:14.598 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.Create (Employee.API)'
+2025-12-29 12:26:14.608 +05:30 [INF] HTTP POST /api/Employee responded 200 in 284.8082 ms
+2025-12-29 12:26:14.617 +05:30 [INF] HTTP POST /api/Employee responded 200 in 294.7100 ms
+2025-12-29 12:26:14.623 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7299/api/Employee - 200 0 null 322.252ms
+2025-12-29 12:26:19.446 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/api/Employee - null null
+2025-12-29 12:26:19.462 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-29 12:26:19.470 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-29 12:26:19.480 +05:30 [INF] Fetching all employees
+2025-12-29 12:26:19.518 +05:30 [INF] Fetched 1 employees
+2025-12-29 12:26:19.526 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Employee.API.Models.Employee, Employee.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-29 12:26:19.541 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API) in 61.4645ms
+2025-12-29 12:26:19.547 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-29 12:26:19.550 +05:30 [INF] HTTP GET /api/Employee responded 200 in 88.6224 ms
+2025-12-29 12:26:19.557 +05:30 [INF] HTTP GET /api/Employee responded 200 in 95.7589 ms
+2025-12-29 12:26:19.565 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/api/Employee - 200 null application/json; charset=utf-8 119.0272ms

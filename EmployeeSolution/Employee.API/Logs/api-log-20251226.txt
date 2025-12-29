@@ -1,0 +1,382 @@
+2025-12-26 21:45:02.783 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 21:45:02.936 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 21:45:03.311 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 21:45:03.527 +05:30 [INF] Hosting environment: Development
+2025-12-26 21:45:03.716 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 21:45:05.801 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 21:45:06.492 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 701.9619ms
+2025-12-26 21:45:06.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 21:45:06.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 21:45:06.553 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 39.7201ms
+2025-12-26 21:45:06.622 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.0202ms
+2025-12-26 21:45:07.534 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 21:45:07.563 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.2765ms
+2025-12-26 21:45:10.373 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7299/api/employee - null null
+2025-12-26 21:45:10.468 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 21:45:10.529 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-26 21:45:11.783 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Employee.API.Models.Employee, Employee.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-26 21:45:11.871 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API) in 1312.0858ms
+2025-12-26 21:45:11.904 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 21:45:11.916 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7299/api/employee - 200 null application/json; charset=utf-8 1543.0878ms
+2025-12-26 21:45:17.111 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/api/Employee - null null
+2025-12-26 21:45:17.121 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 21:45:17.126 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-26 21:45:17.148 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Employee.API.Models.Employee, Employee.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-26 21:45:17.155 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API) in 22.4497ms
+2025-12-26 21:45:17.161 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 21:45:17.166 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/api/Employee - 200 null application/json; charset=utf-8 54.515ms
+2025-12-26 21:48:57.106 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 21:48:57.269 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 21:48:57.649 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 21:48:57.705 +05:30 [INF] Hosting environment: Development
+2025-12-26 21:48:57.720 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 21:48:58.609 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 21:48:59.168 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 564.9294ms
+2025-12-26 21:48:59.183 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 21:48:59.183 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 21:48:59.267 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 83.2149ms
+2025-12-26 21:48:59.301 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 117.8428ms
+2025-12-26 21:48:59.337 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 21:48:59.365 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.9632ms
+2025-12-26 21:49:00.927 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7299/api/employee - null null
+2025-12-26 21:49:00.962 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 21:49:01.017 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-26 21:49:01.036 +05:30 [INF] Fetching all employees
+2025-12-26 21:49:01.779 +05:30 [INF] Fetched 2 employees
+2025-12-26 21:49:01.804 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Employee.API.Models.Employee, Employee.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-26 21:49:01.857 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API) in 823.3235ms
+2025-12-26 21:49:01.867 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 21:49:01.877 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7299/api/employee - 200 null application/json; charset=utf-8 950.7701ms
+2025-12-26 21:49:02.513 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7299/api/employee - null null
+2025-12-26 21:49:02.528 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 21:49:02.534 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-26 21:49:02.543 +05:30 [INF] Fetching all employees
+2025-12-26 21:49:02.555 +05:30 [INF] Fetched 2 employees
+2025-12-26 21:49:02.563 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Employee.API.Models.Employee, Employee.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-26 21:49:02.574 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API) in 31.7026ms
+2025-12-26 21:49:02.583 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 21:49:02.590 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7299/api/employee - 200 null application/json; charset=utf-8 77.5781ms
+2025-12-26 21:49:06.244 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/api/Employee - null null
+2025-12-26 21:49:06.274 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 21:49:06.280 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-26 21:49:06.292 +05:30 [INF] Fetching all employees
+2025-12-26 21:49:06.304 +05:30 [INF] Fetched 2 employees
+2025-12-26 21:49:06.313 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Employee.API.Models.Employee, Employee.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-26 21:49:06.326 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API) in 34.0888ms
+2025-12-26 21:49:06.343 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 21:49:06.353 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/api/Employee - 200 null application/json; charset=utf-8 108.9003ms
+2025-12-26 21:49:09.673 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/api/Employee - null null
+2025-12-26 21:49:09.692 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 21:49:09.699 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-26 21:49:09.711 +05:30 [INF] Fetching all employees
+2025-12-26 21:49:09.718 +05:30 [INF] Fetched 2 employees
+2025-12-26 21:49:09.724 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Employee.API.Models.Employee, Employee.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-26 21:49:09.731 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API) in 19.7818ms
+2025-12-26 21:49:09.738 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 21:49:09.743 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/api/Employee - 200 null application/json; charset=utf-8 70.738ms
+2025-12-26 22:06:06.190 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:06:06.347 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:06:06.634 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:06:06.639 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:06:06.644 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:06:06.745 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:06:07.337 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 590.8121ms
+2025-12-26 22:06:07.351 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:06:07.351 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:06:07.554 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 202.152ms
+2025-12-26 22:06:07.564 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 213.0112ms
+2025-12-26 22:06:07.890 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:06:07.926 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.5402ms
+2025-12-26 22:06:40.789 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:06:40.806 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:06:40.809 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 19.75ms
+2025-12-26 22:06:40.844 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.3517ms
+2025-12-26 22:06:40.927 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:06:40.980 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.1588ms
+2025-12-26 22:07:56.525 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:07:56.654 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:07:57.000 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:07:57.038 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:07:57.049 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:07:57.053 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:07:57.607 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 606.8123ms
+2025-12-26 22:07:57.698 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:07:57.709 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:07:57.844 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 145.9934ms
+2025-12-26 22:07:57.955 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 245.5812ms
+2025-12-26 22:07:58.281 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:07:58.317 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.5767ms
+2025-12-26 22:08:41.999 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:08:42.031 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 32.7758ms
+2025-12-26 22:08:42.078 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:08:42.081 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:08:42.111 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 33.2076ms
+2025-12-26 22:08:42.197 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 115.6995ms
+2025-12-26 22:08:42.532 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:08:42.549 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.5577ms
+2025-12-26 22:11:39.983 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:11:40.120 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:11:40.538 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:11:40.549 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:11:40.563 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:11:40.660 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:11:41.315 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 656.9138ms
+2025-12-26 22:11:41.325 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:11:41.325 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:11:41.471 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 146.0399ms
+2025-12-26 22:11:41.530 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 205.453ms
+2025-12-26 22:11:42.292 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:11:42.328 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.3088ms
+2025-12-26 22:12:24.391 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:12:24.783 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:12:25.439 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:12:25.513 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:12:25.529 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:12:25.550 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:12:28.677 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 3220.6502ms
+2025-12-26 22:12:28.765 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:12:28.767 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:12:30.161 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1393.5993ms
+2025-12-26 22:12:30.166 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1400.3295ms
+2025-12-26 22:12:31.256 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:12:31.297 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.2493ms
+2025-12-26 22:13:31.502 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:13:31.694 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:13:32.001 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:13:32.243 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:13:32.293 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:13:32.371 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:13:32.908 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 914.4672ms
+2025-12-26 22:13:33.034 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:13:33.035 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:13:33.089 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 54.0799ms
+2025-12-26 22:13:33.199 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 163.4167ms
+2025-12-26 22:13:33.517 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:13:33.566 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.52ms
+2025-12-26 22:13:41.897 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:13:41.903 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:13:42.240 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 340.2742ms
+2025-12-26 22:13:42.370 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 467.0077ms
+2025-12-26 22:13:42.449 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:13:42.473 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.4496ms
+2025-12-26 22:16:53.355 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:16:53.497 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:16:53.804 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:16:53.811 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:16:53.816 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:16:56.334 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:16:56.334 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:16:56.681 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 359.1534ms
+2025-12-26 22:16:57.323 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 999.2738ms
+2025-12-26 22:16:57.395 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:16:57.998 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 602.5966ms
+2025-12-26 22:19:48.935 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:19:49.085 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:19:49.494 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:19:49.573 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:19:49.676 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:19:51.699 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:19:51.699 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:19:51.771 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 73.8873ms
+2025-12-26 22:19:52.003 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 310.5921ms
+2025-12-26 22:19:52.072 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:19:52.175 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 103.4847ms
+2025-12-26 22:22:15.647 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:22:17.406 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:22:20.212 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:22:20.911 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:22:21.818 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:22:22.082 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:22:22.080 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:22:24.494 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 2448.3397ms
+2025-12-26 22:22:26.960 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 4927.9213ms
+2025-12-26 22:22:28.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:22:30.900 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2522.7719ms
+2025-12-26 22:23:07.540 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:23:08.077 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 537.3151ms
+2025-12-26 22:23:08.090 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:23:08.094 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:23:08.161 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 70.9184ms
+2025-12-26 22:23:08.220 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 125.9451ms
+2025-12-26 22:23:10.414 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:23:10.492 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 78.2529ms
+2025-12-26 22:23:33.541 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger - null null
+2025-12-26 22:23:34.086 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger - 301 0 null 545.2781ms
+2025-12-26 22:23:34.108 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:23:34.408 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 299.8281ms
+2025-12-26 22:23:34.460 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/swagger-ui.css - null null
+2025-12-26 22:23:34.463 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.css - null null
+2025-12-26 22:23:34.483 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/swagger-ui-bundle.js - null null
+2025-12-26 22:23:34.514 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/swagger-ui-standalone-preset.js - null null
+2025-12-26 22:23:34.548 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:23:34.576 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.js - null null
+2025-12-26 22:23:34.602 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:23:34.873 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.css - 200 152 text/css 410.1653ms
+2025-12-26 22:23:34.888 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/swagger-ui.css - 200 26248 text/css 428.0367ms
+2025-12-26 22:23:34.925 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/swagger-ui-bundle.js - 200 424871 text/javascript 442.0859ms
+2025-12-26 22:23:34.954 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/swagger-ui-standalone-preset.js - 200 77848 text/javascript 439.3873ms
+2025-12-26 22:23:34.961 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 412.9957ms
+2025-12-26 22:23:34.966 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.js - 200 null application/javascript;charset=utf-8 390.0742ms
+2025-12-26 22:23:34.986 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 383.5072ms
+2025-12-26 22:23:35.138 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:23:35.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/favicon-32x32.png - null null
+2025-12-26 22:23:35.161 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.9612ms
+2025-12-26 22:23:35.176 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/favicon-32x32.png - 200 628 image/png 19.3699ms
+2025-12-26 22:24:42.092 +05:30 [INF] Now listening on: http://localhost:7299
+2025-12-26 22:24:42.244 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:24:42.599 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:24:42.609 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:24:42.623 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:25:22.850 +05:30 [INF] Now listening on: http://localhost:7299
+2025-12-26 22:25:23.014 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:25:23.475 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:25:23.535 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:25:23.613 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:25:24.266 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/swagger - null null
+2025-12-26 22:25:24.651 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/swagger - 301 0 null 389.903ms
+2025-12-26 22:25:24.704 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/swagger/index.html - null null
+2025-12-26 22:25:24.978 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/swagger/swagger-ui.css - null null
+2025-12-26 22:25:24.978 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 274.409ms
+2025-12-26 22:25:24.980 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/swagger/index.css - null null
+2025-12-26 22:25:24.982 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/swagger/swagger-ui-standalone-preset.js - null null
+2025-12-26 22:25:24.985 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/swagger/index.js - null null
+2025-12-26 22:25:24.987 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:25:25.010 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/swagger/swagger-ui-bundle.js - null null
+2025-12-26 22:25:25.041 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/swagger/index.css - 200 152 text/css 61.1824ms
+2025-12-26 22:25:25.044 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/swagger/swagger-ui.css - 200 26248 text/css 65.5605ms
+2025-12-26 22:25:25.068 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/swagger/swagger-ui-standalone-preset.js - 200 77848 text/javascript 86.3253ms
+2025-12-26 22:25:25.077 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/swagger/index.js - 200 null application/javascript;charset=utf-8 91.2455ms
+2025-12-26 22:25:25.185 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/swagger/swagger-ui-bundle.js - 200 424871 text/javascript 174.7383ms
+2025-12-26 22:25:25.194 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 207.2089ms
+2025-12-26 22:25:25.214 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:25:25.338 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 123.3775ms
+2025-12-26 22:25:25.398 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:25:25.425 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/swagger/favicon-32x32.png - null null
+2025-12-26 22:25:25.432 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.919ms
+2025-12-26 22:25:25.445 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/swagger/favicon-32x32.png - 200 628 image/png 19.2138ms
+2025-12-26 22:26:00.976 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/swagger/index.html - null null
+2025-12-26 22:26:01.005 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 29.3427ms
+2025-12-26 22:26:01.058 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:26:01.095 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:26:01.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 44.1431ms
+2025-12-26 22:26:05.089 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:26:05.218 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:26:05.947 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:26:05.951 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:26:05.960 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:26:19.243 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:26:19.423 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:26:20.034 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:26:20.034 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:26:20.096 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:26:20.443 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 420.1733ms
+2025-12-26 22:26:20.495 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:26:20.734 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:26:20.715 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 696.3226ms
+2025-12-26 22:26:20.767 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:26:20.905 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.2378ms
+2025-12-26 22:27:13.250 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:27:13.413 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:27:13.797 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:27:13.808 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:27:13.823 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:27:16.057 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:27:16.057 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:27:16.753 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 704.7427ms
+2025-12-26 22:27:17.393 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1347.2958ms
+2025-12-26 22:27:17.503 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:27:17.672 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 168.3136ms
+2025-12-26 22:27:55.884 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:27:56.316 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 432.3328ms
+2025-12-26 22:27:56.393 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:27:56.408 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:27:56.446 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 52.9294ms
+2025-12-26 22:27:56.516 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 106.8138ms
+2025-12-26 22:27:57.013 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:27:57.038 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.5946ms
+2025-12-26 22:28:02.104 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:28:02.401 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:28:03.087 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:28:03.197 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:28:03.287 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:28:03.325 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:28:04.279 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 952.1413ms
+2025-12-26 22:28:04.295 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:28:04.298 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:28:04.409 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 113.854ms
+2025-12-26 22:28:04.584 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 286.0115ms
+2025-12-26 22:28:07.632 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:28:07.675 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.2506ms
+2025-12-26 22:28:26.076 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:28:26.104 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 28.003ms
+2025-12-26 22:28:26.162 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:28:26.162 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:28:26.183 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 21.4401ms
+2025-12-26 22:28:26.243 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.9936ms
+2025-12-26 22:28:26.551 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:28:26.577 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.0773ms
+2025-12-26 22:33:24.736 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:33:24.788 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 52.0108ms
+2025-12-26 22:33:24.851 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:33:24.852 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:33:24.926 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 74.4145ms
+2025-12-26 22:33:25.009 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 157.5397ms
+2025-12-26 22:33:25.876 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:33:25.895 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.0032ms
+2025-12-26 22:33:42.734 +05:30 [INF] Now listening on: https://localhost:7299
+2025-12-26 22:33:42.884 +05:30 [INF] Now listening on: http://localhost:5152
+2025-12-26 22:33:43.313 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-26 22:33:43.382 +05:30 [INF] Hosting environment: Development
+2025-12-26 22:33:43.455 +05:30 [INF] Content root path: C:\Blazor_Projects\EmployeeSolution\Employee.API
+2025-12-26 22:33:43.636 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/index.html - null null
+2025-12-26 22:33:44.374 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 275.4416 ms
+2025-12-26 22:33:44.465 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_vs/browserLink - null null
+2025-12-26 22:33:44.465 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-26 22:33:44.533 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/index.html - 200 null text/html;charset=utf-8 899.6413ms
+2025-12-26 22:33:44.582 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 117.2988ms
+2025-12-26 22:33:44.647 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/_vs/browserLink - 200 null text/javascript; charset=UTF-8 181.359ms
+2025-12-26 22:33:44.730 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - null null
+2025-12-26 22:33:44.767 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 19.3985 ms
+2025-12-26 22:33:44.780 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.3635ms
+2025-12-26 22:33:55.754 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/api/Employee - null null
+2025-12-26 22:33:55.792 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 22:33:55.860 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-26 22:33:55.896 +05:30 [INF] Fetching all employees
+2025-12-26 22:33:57.009 +05:30 [INF] Fetched 2 employees
+2025-12-26 22:33:57.044 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Employee.API.Models.Employee, Employee.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-26 22:33:57.091 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API) in 1215.0885ms
+2025-12-26 22:33:57.098 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 22:33:57.105 +05:30 [INF] HTTP GET /api/Employee responded 200 in 1322.5311 ms
+2025-12-26 22:33:57.118 +05:30 [INF] HTTP GET /api/Employee responded 200 in 1345.3586 ms
+2025-12-26 22:33:57.128 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/api/Employee - 200 null application/json; charset=utf-8 1374.0563ms
+2025-12-26 22:33:58.734 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/api/Employee - null null
+2025-12-26 22:33:58.746 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 22:33:58.751 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-26 22:33:58.760 +05:30 [INF] Fetching all employees
+2025-12-26 22:33:58.780 +05:30 [INF] Fetched 2 employees
+2025-12-26 22:33:58.785 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Employee.API.Models.Employee, Employee.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-26 22:33:58.790 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API) in 30.5507ms
+2025-12-26 22:33:58.801 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 22:33:58.806 +05:30 [INF] HTTP GET /api/Employee responded 200 in 60.5827 ms
+2025-12-26 22:33:58.818 +05:30 [INF] HTTP GET /api/Employee responded 200 in 73.1469 ms
+2025-12-26 22:33:58.830 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/api/Employee - 200 null application/json; charset=utf-8 95.4855ms
+2025-12-26 22:36:21.865 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7299/api/Employee - application/json 111
+2025-12-26 22:36:21.972 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.Create (Employee.API)'
+2025-12-26 22:36:22.003 +05:30 [INF] Route matched with {action = "Create", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Employee.API.Models.Employee) on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-26 22:36:22.491 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-12-26 22:36:22.495 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.Create (Employee.API) in 471.3955ms
+2025-12-26 22:36:22.503 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.Create (Employee.API)'
+2025-12-26 22:36:22.513 +05:30 [INF] HTTP POST /api/Employee responded 200 in 540.4640 ms
+2025-12-26 22:36:22.522 +05:30 [INF] HTTP POST /api/Employee responded 200 in 549.8364 ms
+2025-12-26 22:36:22.537 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7299/api/Employee - 200 0 null 672.5032ms
+2025-12-26 22:37:01.471 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7299/api/Employee - null null
+2025-12-26 22:37:01.589 +05:30 [INF] Executing endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 22:37:01.593 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetEmployees() on controller Employee.API.Controllers.EmployeeController (Employee.API).
+2025-12-26 22:37:01.607 +05:30 [INF] Fetching all employees
+2025-12-26 22:37:01.625 +05:30 [INF] Fetched 3 employees
+2025-12-26 22:37:01.690 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Employee.API.Models.Employee, Employee.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-12-26 22:37:01.736 +05:30 [INF] Executed action Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API) in 129.2624ms
+2025-12-26 22:37:01.744 +05:30 [INF] Executed endpoint 'Employee.API.Controllers.EmployeeController.GetEmployees (Employee.API)'
+2025-12-26 22:37:01.753 +05:30 [INF] HTTP GET /api/Employee responded 200 in 164.1635 ms
+2025-12-26 22:37:01.856 +05:30 [INF] HTTP GET /api/Employee responded 200 in 267.8864 ms
+2025-12-26 22:37:01.865 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7299/api/Employee - 200 null application/json; charset=utf-8 393.9073ms

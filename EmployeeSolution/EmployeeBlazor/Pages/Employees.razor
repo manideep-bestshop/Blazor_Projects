@@ -1,0 +1,127 @@
+﻿@page "/Employees"
+@using EmployeeBlazor.Models
+@using EmployeeBlazor.Services
+@inject EmployeeService employeeService
+@inject ILogger<Employees> Logger
+
+<h3>@(isEdit ? "Edit Employee" : "Add Employee")</h3>
+
+<EditForm Model="currentEmployee" OnValidSubmit="SaveEmployee">
+    <DataAnnotationsValidator />
+
+    <InputText class="form-control mb-2" placeholder="Name"
+               @bind-Value="currentEmployee.Name" />
+
+    <InputText class="form-control mb-2" placeholder="Email"
+               @bind-Value="currentEmployee.Email" />
+
+    <InputText class="form-control mb-2" placeholder="Department"
+               @bind-Value="currentEmployee.Department" />
+
+    <InputNumber class="form-control mb-2" placeholder="Salary"
+                 @bind-Value="currentEmployee.Salary" />
+
+    <button class="btn btn-primary">
+        @(isEdit ? "Update" : "Save")
+    </button>
+
+    @if (isEdit)
+    {
+        <button class="btn btn-secondary ms-2" @onclick="CancelEdit">
+            Cancel
+        </button>
+    }
+</EditForm>
+
+<hr />
+
+<h3>Employees</h3>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Dept</th>
+            <th>Salary</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in employees)
+        {
+            <tr>
+                <td>@emp.Name</td>
+                <td>@emp.Email</td>
+                <td>@emp.Department</td>
+                <td>@emp.Salary</td>
+                <td>
+                    <button class="btn btn-warning btn-sm"
+                            @onclick="() => EditEmployee(emp)">
+                        Edit
+                    </button>
+
+                    <button class="btn btn-danger btn-sm ms-1"
+                            @onclick="() => DeleteEmployee(emp.Id)">
+                        Delete
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@code {
+    List<Employee> employees = new();
+    Employee currentEmployee = new();
+    bool isEdit = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadEmployees();
+    }
+
+    async Task LoadEmployees()
+    {
+        employees = await employeeService.GetEmployees();
+    }
+
+    async Task SaveEmployee()
+    {
+        if (isEdit)
+            await employeeService.UpdateEmployee(currentEmployee);
+        else
+            await employeeService.AddEmployee(currentEmployee);
+
+        currentEmployee = new Employee();
+        isEdit = false;
+        await LoadEmployees();
+    }
+
+    void EditEmployee(Employee emp)
+    {
+        currentEmployee = new Employee
+        {
+            Id = emp.Id,
+            Name = emp.Name,
+            Email = emp.Email,
+            Department = emp.Department,
+            Salary = emp.Salary
+        };
+
+        isEdit = true;
+    }
+
+    async Task DeleteEmployee(int id)
+    {
+        await employeeService.DeleteEmployee(id);
+        await LoadEmployees();
+    }
+
+    void CancelEdit()
+    {
+        currentEmployee = new Employee();
+        isEdit = false;
+    }
+}

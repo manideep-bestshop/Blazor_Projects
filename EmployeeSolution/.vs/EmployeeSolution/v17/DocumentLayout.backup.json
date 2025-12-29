@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Blazor_Projects\\EmployeeSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B296E69D-314C-49EF-B3CC-D7020D35295F}|Employee.API\\Employee.API.csproj|c:\\blazor_projects\\employeesolution\\employee.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B296E69D-314C-49EF-B3CC-D7020D35295F}|Employee.API\\Employee.API.csproj|solutionrelative:employee.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B296E69D-314C-49EF-B3CC-D7020D35295F}|Employee.API\\Employee.API.csproj|c:\\blazor_projects\\employeesolution\\employee.api\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B296E69D-314C-49EF-B3CC-D7020D35295F}|Employee.API\\Employee.API.csproj|solutionrelative:employee.api\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B296E69D-314C-49EF-B3CC-D7020D35295F}|Employee.API\\Employee.API.csproj|c:\\blazor_projects\\employeesolution\\employee.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B296E69D-314C-49EF-B3CC-D7020D35295F}|Employee.API\\Employee.API.csproj|solutionrelative:employee.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B296E69D-314C-49EF-B3CC-D7020D35295F}|Employee.API\\Employee.API.csproj|c:\\blazor_projects\\employeesolution\\employee.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B296E69D-314C-49EF-B3CC-D7020D35295F}|Employee.API\\Employee.API.csproj|solutionrelative:employee.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B296E69D-314C-49EF-B3CC-D7020D35295F}|Employee.API\\Employee.API.csproj|c:\\blazor_projects\\employeesolution\\employee.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B296E69D-314C-49EF-B3CC-D7020D35295F}|Employee.API\\Employee.API.csproj|solutionrelative:employee.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B6ADC0-756F-4D7B-BFB9-50F97D409D3B}|EmployeeBlazor\\EmployeeBlazor.csproj|c:\\blazor_projects\\employeesolution\\employeeblazor\\pages\\employees.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92B6ADC0-756F-4D7B-BFB9-50F97D409D3B}|EmployeeBlazor\\EmployeeBlazor.csproj|solutionrelative:employeeblazor\\pages\\employees.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92B6ADC0-756F-4D7B-BFB9-50F97D409D3B}|EmployeeBlazor\\EmployeeBlazor.csproj|c:\\blazor_projects\\employeesolution\\employeeblazor\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92B6ADC0-756F-4D7B-BFB9-50F97D409D3B}|EmployeeBlazor\\EmployeeBlazor.csproj|solutionrelative:employeeblazor\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "C:\\Blazor_Projects\\EmployeeSolution\\Employee.API\\Data\\DapperContext.cs",
+              "RelativeDocumentMoniker": "Employee.API\\Data\\DapperContext.cs",
+              "ToolTip": "C:\\Blazor_Projects\\EmployeeSolution\\Employee.API\\Data\\DapperContext.cs",
+              "RelativeToolTip": "Employee.API\\Data\\DapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T06:53:49.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Blazor_Projects\\EmployeeSolution\\Employee.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Employee.API\\appsettings.json",
+              "ToolTip": "C:\\Blazor_Projects\\EmployeeSolution\\Employee.API\\appsettings.json",
+              "RelativeToolTip": "Employee.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-29T06:52:44.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Blazor_Projects\\EmployeeSolution\\Employee.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Employee.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Blazor_Projects\\EmployeeSolution\\Employee.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Employee.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAABRwAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-26T16:45:50.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employees.razor",
+              "DocumentMoniker": "C:\\Blazor_Projects\\EmployeeSolution\\EmployeeBlazor\\Pages\\Employees.razor",
+              "RelativeDocumentMoniker": "EmployeeBlazor\\Pages\\Employees.razor",
+              "ToolTip": "C:\\Blazor_Projects\\EmployeeSolution\\EmployeeBlazor\\Pages\\Employees.razor",
+              "RelativeToolTip": "EmployeeBlazor\\Pages\\Employees.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-26T16:32:16.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Blazor_Projects\\EmployeeSolution\\EmployeeBlazor\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeeBlazor\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Blazor_Projects\\EmployeeSolution\\EmployeeBlazor\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "EmployeeBlazor\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:31:47.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Blazor_Projects\\EmployeeSolution\\Employee.API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Employee.API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Blazor_Projects\\EmployeeSolution\\Employee.API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Employee.API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwBAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:17:03.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Blazor_Projects\\EmployeeSolution\\Employee.API\\Program.cs",
+              "RelativeDocumentMoniker": "Employee.API\\Program.cs",
+              "ToolTip": "C:\\Blazor_Projects\\EmployeeSolution\\Employee.API\\Program.cs",
+              "RelativeToolTip": "Employee.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:10:07.52Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
